@@ -1,5 +1,5 @@
 import { InnovationCard } from "./InnovationCard";
-import { Cpu, Recycle, Building2, TrendingUp } from "lucide-react";
+import { Cpu, Recycle, Building2, TrendingUp, Wind, Droplets } from "lucide-react";
 import precisionImage from "@/assets/precision-farming.jpg";
 import sustainableImage from "@/assets/sustainable-farming.jpg";
 import greenhouseImage from "@/assets/smart-greenhouse.jpg";
@@ -7,24 +7,24 @@ import greenhouseImage from "@/assets/smart-greenhouse.jpg";
 export const InnovationsSection = () => {
   const innovations = [
     {
-      title: "Precision Farming",
-      description: "Advanced sensors, GPS technology, and data analytics optimize crop yields while reducing resource waste through smart farming techniques.",
+      title: "Climate-Adaptive Farming",
+      description: "AI-powered climate modeling and drought-resistant crops designed to thrive in changing environmental conditions while maintaining biodiversity.",
       image: precisionImage,
       icon: Cpu,
       delay: 0
     },
     {
-      title: "Sustainable Agriculture",
-      description: "Renewable energy integration, organic practices, and eco-friendly solutions creating a sustainable future for farming.",
+      title: "Carbon Sequestration Agriculture",
+      description: "Revolutionary soil management and cover cropping techniques that capture atmospheric carbon, reversing climate change through regenerative farming.",
       image: sustainableImage,
       icon: Recycle,
       delay: 200
     },
     {
-      title: "Smart Greenhouses",
-      description: "Automated climate control, vertical farming systems, and AI-driven monitoring for maximum efficiency and year-round production.",
+      title: "Renewable Energy Farms",
+      description: "Solar-powered vertical farms and wind-integrated agriculture systems producing food with zero carbon footprint and maximum resource efficiency.",
       image: greenhouseImage,
-      icon: Building2,
+      icon: Wind,
       delay: 400
     }
   ];
@@ -35,14 +35,14 @@ export const InnovationsSection = () => {
         <div className="text-center mb-16 animate-fade-in">
           <div className="flex items-center justify-center space-x-2 mb-4">
             <TrendingUp className="w-6 h-6 text-primary" />
-            <span className="text-primary font-medium">Innovation</span>
+            <span className="text-primary font-medium">Environmental Innovation</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
-            Revolutionary Technologies
+            Climate Solutions for Tomorrow
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore the cutting-edge innovations that are reshaping agriculture 
-            and creating sustainable solutions for our planet's future.
+            Discover transformative agricultural technologies that heal our planet while feeding the world,
+            creating a regenerative future where farming reverses climate change.
           </p>
         </div>
         

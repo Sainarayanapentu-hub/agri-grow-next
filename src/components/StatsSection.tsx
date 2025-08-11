@@ -1,30 +1,30 @@
-import { TrendingUp, Users, Globe, Award } from "lucide-react";
+import { TrendingUp, Users, Globe, Award, Leaf, Zap } from "lucide-react";
 
 export const StatsSection = () => {
   const stats = [
     {
-      icon: TrendingUp,
-      value: "40%",
-      label: "Increase in Crop Yields",
-      description: "Through precision farming techniques"
+      icon: Leaf,
+      value: "2.5B",
+      label: "Tons CO₂ Captured",
+      description: "Through regenerative agriculture"
     },
     {
-      icon: Users,
-      value: "10M+",
-      label: "Farmers Supported",
-      description: "Worldwide technology adoption"
+      icon: Zap,
+      value: "100%",
+      label: "Renewable Energy",
+      description: "Carbon-neutral farming operations"
     },
     {
       icon: Globe,
-      value: "50+",
-      label: "Countries Reached",
-      description: "Global agricultural transformation"
+      value: "75%",
+      label: "Water Conservation",
+      description: "Smart irrigation & drought resistance"
     },
     {
       icon: Award,
-      value: "95%",
-      label: "Sustainability Goals",
-      description: "Environmental impact reduction"
+      value: "90%",
+      label: "Biodiversity Restored",
+      description: "Ecosystem rehabilitation success"
     }
   ];
 
@@ -33,10 +33,10 @@ export const StatsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Transforming Agriculture Globally
+            Healing Our Planet Through Agriculture
           </h2>
           <p className="text-xl text-muted-foreground">
-            Real impact through innovative agricultural technology
+            Measurable environmental impact through climate-smart farming solutions
           </p>
         </div>
         

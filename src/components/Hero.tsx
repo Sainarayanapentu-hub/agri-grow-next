@@ -18,18 +18,18 @@ export const Hero = () => {
         <div className="animate-fade-in">
           <div className="flex items-center justify-center space-x-2 mb-6">
             <Leaf className="w-8 h-8 text-primary animate-float" />
-            <span className="text-xl font-semibold text-primary">AgriTech Future</span>
+            <span className="text-xl font-semibold text-primary">Climate-Smart Agriculture</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
-            The Future of
+            Farming for a
             <br />
-            Agriculture is Here
+            Sustainable Future
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-4xl mx-auto leading-relaxed">
-            Discover revolutionary farming technologies that are transforming agriculture through 
-            precision farming, sustainable practices, and innovative solutions for tomorrow's food systems.
+            Revolutionary agricultural technologies addressing climate change through carbon sequestration,
+            renewable energy integration, and climate-resilient farming solutions for planetary health.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
